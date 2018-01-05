@@ -35,7 +35,7 @@ transform = Compose([
 # pts: np.ndarray of shape (N, 2), e.g. [[x1, y1], [x2, y2], ...]
 transformed_image, transformed_pts = transfrom(image, pts)
 ```
-![](imgs/keypoints.gif)
+![](https://i.loli.net/2018/01/06/5a5005a552e3b.gif)
 
 ### Bounding Boxes
 bounding boxes -> vertices coordinates -> transformed coordinates -> transformed bounding boxes.  
@@ -64,7 +64,7 @@ transform = Compose([
 # relative=False). 
 transformed_image, transformed_bboxes = transfrom(image, bboxes)
 ```
-![](imgs/bboxes.gif)
+![](https://i.loli.net/2018/01/06/5a5006787251c.gif)
 
 ### Segmentation Mask
 ```python
@@ -90,7 +90,7 @@ transform = Compose([
 # target: np.ndarray of shape (h, w, c)
 transformed_image, transformed_target = transfrom(image, target)
 ```
-![](imgs/mask.gif)  
+![](https://i.loli.net/2018/01/06/5a5006c0d99b1.gif)  
 Note that the example augmentations above are just for demonstration, there is no warranty that they are useful.
 
 ### More
@@ -103,4 +103,4 @@ Note that the example augmentations above are just for demonstration, there is n
 * Docstring or documentation
 
 ### Contact 
-If you have problems related to this project, you can report isseus, or email me (Hang Qi, qihang@outlook.com).
+If you have problems related to this project, you can report isseus, or email me (qihang@outlook.com).
